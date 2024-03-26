@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AhFsGXna9ukkLGYxs897WsmFSI8SkFP7EIfcFoGIpwOozkVrVWCmMPnhkd07ep+9d2B97zSDF/t2JUwogrNQ5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RiSBo\\Desktop\\projekat za posao\\backend\\C#Test\\C#Test\\C#Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RiSBo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

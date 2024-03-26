@@ -1,0 +1,26 @@
+﻿@model ErrorViewModel
+
+@{
+    ViewData["Title"] = "Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-danger">Error</h1>
+<hr />
+<dl class="row">
+    <dt class="col-sm-3">RequestId</dt>
+    <dd class="col-sm-9">@Model?.RequestId</dd> <!-- Guard against null model -->
+</dl>
+
+@if (Model != null && Model.ShowRequestId)
+{
+    <div class="alert alert-danger">
+        <strong>Error:</strong> An error occurred while processing your request.
+    </div>
+}
+else
+{
+    <div class="alert alert-danger">
+        <strong>Error:</strong> An error occurred.
+    </div>
+}
