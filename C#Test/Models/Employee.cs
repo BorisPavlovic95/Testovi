@@ -8,6 +8,7 @@
         public DateTime StarTimeUtc { get; set; }
         public DateTime EndTimeUtc { get; set; } 
         public string EntryNotes { get; set; } 
-        public DateTime? DeletedOn { get; set; } 
+        public DateTime? DeletedOn { get; set; }
+        public string PieChartColor { get; set; }
     }
 }

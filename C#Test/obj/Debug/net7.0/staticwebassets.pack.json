@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\RiSBo\\Desktop\\projekat za posao\\backend\\C#Test\\C#Test\\wwwroot\\images\\pieChart.png",
+      "PackagePath": "staticwebassets\\images\\pieChart.png"
+    },
+    {
       "Id": "C:\\Users\\RiSBo\\Desktop\\projekat za posao\\backend\\C#Test\\C#Test\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -243,6 +247,10 @@
     {
       "Id": "C:\\Users\\RiSBo\\Desktop\\projekat za posao\\backend\\C#Test\\C#Test\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\RiSBo\\Desktop\\projekat za posao\\backend\\C#Test\\C#Test\\wwwroot\\pieChart.png",
+      "PackagePath": "staticwebassets\\pieChart.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.C#Test.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,11 +1,16 @@
 ﻿@model List<Employee>
 
+@{
+    // Order employees by TotalTimeWorked in descending order
+    var orderedEmployees = Model.OrderByDescending(e => e.TotalTimeWorked).ToList();
+}
+
 <table>
     <tr>
         <th>Name</th>
         <th>Total Time Worked</th>
     </tr>
-    @foreach (var employee in Model)
+    @foreach (var employee in orderedEmployees)
     {
         <tr style="@(employee.TotalTimeWorked < 100 ? "background-color: #ff9999;" : "")">
             <td>@employee.EmployeeName</td>
@@ -13,3 +18,6 @@
         </tr>
     }
 </table>
+<h2>Pie Chart</h2>
+<img src="~/pieChart.png" alt="Pie Chart" />
+

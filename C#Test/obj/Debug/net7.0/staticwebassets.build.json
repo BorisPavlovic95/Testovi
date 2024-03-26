@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j3M6ZOAUqcO9n4SFL/+Q/x+sjMzK0+LssccqZ1HACqo=",
+  "Hash": "O04l/IYkS24V7/U+8lJ1qTla6n7anSMAC7KCqKGzFls=",
   "Source": "C#Test",
   "BasePath": "_content/C#Test",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\RiSBo\\Desktop\\projekat za posao\\backend\\C#Test\\C#Test\\wwwroot\\images\\pieChart.png",
+      "SourceId": "C#Test",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\RiSBo\\Desktop\\projekat za posao\\backend\\C#Test\\C#Test\\wwwroot\\",
+      "BasePath": "_content/C#Test",
+      "RelativePath": "images/pieChart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pieChart.png"
     },
     {
       "Identity": "C:\\Users\\RiSBo\\Desktop\\projekat za posao\\backend\\C#Test\\C#Test\\wwwroot\\js\\site.js",
@@ -1069,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\RiSBo\\Desktop\\projekat za posao\\backend\\C#Test\\C#Test\\wwwroot\\pieChart.png",
+      "SourceId": "C#Test",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\RiSBo\\Desktop\\projekat za posao\\backend\\C#Test\\C#Test\\wwwroot\\",
+      "BasePath": "_content/C#Test",
+      "RelativePath": "pieChart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pieChart.png"
     }
   ]
 }
