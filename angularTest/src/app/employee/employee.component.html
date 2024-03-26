@@ -1,0 +1,14 @@
+<table *ngIf="employees.length > 0">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Total Time Worked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees" [ngClass]="{ 'less-than-100-hours': isLessThan100Hours(employee.totalTimeWorked) }">
+      <td>{{ employee.employeeName }}</td>
+      <td>{{ employee.totalTimeWorked }}</td>
+    </tr>
+  </tbody>
+</table>
